@@ -1,0 +1,9 @@
+#toggle{
+    display:none;
+}
+#paragraph{
+    display:none; 
+}
+#toggle:checked + label + #paragraph {
+    display: block;
+  }
